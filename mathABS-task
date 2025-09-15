@@ -1,0 +1,16 @@
+1. Conditional check:
+ - Input '-7' -> it's negative -> return '-(-7)' = 7
+ - Input '5' -> it's not negative -> return '5'
+
+2. Multiplication with Sign (ternary factor):
+ - Input '-4' -> multiple by '-1' -> return '4'
+
+3. Using Math.max:
+ - Input '-7' -> compare input vs his positive (-7 vs 7) -> max is 7
+ - Input '3' -> compare input vs his negative (3 vs -3) -> max is 3
+
+4. Using Math.min:
+ - Input '-7' -> compare input vs his positive (-7 vs 7) -> min is -7
+ - Input '3' -> compare input vs his negative (3 vs -3) -> min is -3
+
+I know a few different ways to implement Math.abs, these are few of them that I'm familliar with. For this task took me about 35-40 minutes
