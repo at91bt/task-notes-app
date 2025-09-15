@@ -1,6 +1,6 @@
 ## Prerequisites
 
-- Node.js (version 18 or higher)
+- Node.js (version 20 or higher)
 - npm (comes with Node.js)
 
 ## Setup Instructions
@@ -10,9 +10,3 @@
 - cd backend
 - npm install
 - npm run start:dev
-
-### Step 1: Install Frontend Dependencies
-
-- cd frontend
-- npm install
-- npm start
